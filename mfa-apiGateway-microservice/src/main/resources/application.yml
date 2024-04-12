@@ -1,0 +1,19 @@
+# Database properties
+spring:
+  host: 8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/2fa_microservice
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# JPA properties
+jpa:
+  database-platform: org.hibernate.dialect.MySQLDialect
+  hibernate:
+    ddl-auto: update
+
+# Logging properties
+# logging:
+#   level:
+#     root: DEBUG
